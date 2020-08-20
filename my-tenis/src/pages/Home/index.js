@@ -42,6 +42,24 @@ export default function Home() {
                     </Shoes>
                 </View>
 
+                <View style={{ flexDirection: 'row', justifyContent: 'space-around' }}>
+                    <Shoes img={require('../../assets/3.png')} cost="R$560,99">
+                        Nike Squidward Tentacles
+                    </Shoes>
+                    <Shoes img={require('../../assets/4.png')} cost="R$220">
+                        Nike Epic React Flytnit 2
+                    </Shoes>
+                </View>
+
+                <View style={{ flexDirection: 'row', justifyContent: 'space-around' }}>
+                    <Shoes img={require('../../assets/5.png')} cost="R$130">
+                        Nike Joyride Run Flyknit
+                    </Shoes>
+                    <Shoes img={require('../../assets/6.png')} cost="R$930,20">
+                        Nike Air Max
+                    </Shoes>
+                </View>
+
             </ScrollView>
 
         </View>
