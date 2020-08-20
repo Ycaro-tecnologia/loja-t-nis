@@ -12,7 +12,7 @@ function filterDesc(desc) {
 }
 
     return (
-        <TouchableOpacity>
+        <TouchableOpacity style={styles.container} onPress={props.onClick}>
             <Image
             source={props.img}
             style={styles.shoesImg}
