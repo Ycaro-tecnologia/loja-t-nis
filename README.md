@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img  alt="loja"  title="#delicinha" src=".github/logo.jpg" width="250px" />
+  <img  alt="loja"  title="#delicinha" src=".github/logo.jpg" width="550px" />
   
   <h4 align="center">
       💎 Aplicativo loja de tênis
