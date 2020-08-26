@@ -46,19 +46,19 @@ export default function Home() {
                 </View>
 
                 <View style={{ flexDirection: 'row', justifyContent: 'space-around' }}>
-                    <Shoes img={require('../../assets/3.png')} cost="R$560,99" onClick={()=> alert('CLICOU')}>
+                    <Shoes img={require('../../assets/3.png')} cost="R$560,99" onClick={()=> navigation.navigate('Detail')}>
                         Nike Squidward Tentacles
                     </Shoes>
-                    <Shoes img={require('../../assets/4.png')} cost="R$220" onClick={()=> alert('CLICOU')}>
+                    <Shoes img={require('../../assets/4.png')} cost="R$220" onClick={()=> navigation.navigate('Detail')}>
                         Nike Epic React Flytnit 2
                     </Shoes>
                 </View>
 
                 <View style={{ flexDirection: 'row', justifyContent: 'space-around' }}>
-                    <Shoes img={require('../../assets/5.png')} cost="R$130" onClick={()=> alert('CLICOU')}>
+                    <Shoes img={require('../../assets/5.png')} cost="R$130" onClick={()=> navigation.navigate('Detail')}>
                         Nike Joyride Run Flyknit
                     </Shoes>
-                    <Shoes img={require('../../assets/6.png')} cost="R$930,20" onClick={()=> alert('CLICOU')}>
+                    <Shoes img={require('../../assets/6.png')} cost="R$930,20" onClick={()=> navigation.navigate('Detail')}>
                         Nike Air Max
                     </Shoes>
                 </View>
