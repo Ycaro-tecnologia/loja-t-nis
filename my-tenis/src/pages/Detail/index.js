@@ -3,6 +3,9 @@ import { View, Text, Image, ScrollView, TouchableOpacity, StyleSheet } from 'rea
 
 
 import Dot from '../../component/Dot';
+import SizeButton from '../../component/SizeButton';
+import Button from '../../component/Button';
+import Footer from '../../component/Footer';
 
 export default function Detail({ navigation }) {
 
@@ -36,8 +39,35 @@ export default function Detail({ navigation }) {
                     <Dot color="#000"/>
                 </View>
 
-                
+                <View style={{ flexDirection: 'row', width: '100%'}}>
+                    <ScrollView horizontal showsHorizontalScrollIndicator={false}>
+                       <SizeButton bgColor="#17181a" color="#FFF">40</SizeButton> 
+                       <SizeButton>37</SizeButton> 
+                       <SizeButton>39</SizeButton> 
+                       <SizeButton>44</SizeButton> 
+                    </ScrollView>
+                </View>
 
+                <View style={styles.textContent}>
+                    <Text style={styles.textTitle}>
+                         Nike Downshifter 10
+                    </Text>
+                    <Text style={styles.textContent}>
+                        O Tênis Nike Masculino Downshifter 10 traz amortecimento e suporte atualizado, para garantir maior conforto.
+                    </Text>
+                    <Text style={styles.textList}>
+                        - Categoria: amortecimento
+                    </Text>
+                    <Text style={styles.textList}>
+                        - Material: Mesh
+                    </Text>
+                </View>
+
+                <Button />
+
+                <View style={styles.line} />
+
+                <Footer/>
 
             </View>
 
@@ -61,5 +91,24 @@ export default function Detail({ navigation }) {
     dotContainer: {
         flexDirection: 'row',
         marginVertical: '7%'
+    },
+    textContent: {
+        fontSize: 16,
+        lineHeight: 25,
+        marginVertical: '2%',
+        paddingHorizontal: '2%'
+    },
+    textTitle: {
+        fontSize: 22,
+        marginVertical: '2%'
+    },
+    textList: {
+        fontSize: 16,
+        lineHeight: 25,
+    },
+    line: {
+        borderWidth: 1,
+        borderBottomColor: '#DDD',
+        marginVertical: '2%'
     }
- })   
+ })  
