@@ -34,7 +34,7 @@
 
 ## 💎 Projeto
 
-<p>O tindev é um projeto que tem o intuito de reunir desenvolvedores em busca de um networking em que cada dev pode curti seu companheiro de profissão.</p>
+<p>Aplicativo loja de tênis especifica da marca Nike.</p>
 
 
 <br>
